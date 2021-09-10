@@ -70,3 +70,56 @@ body {
   margin-left: 25%;
   width: 0%;
 }
+
+/* features section starts */
+
+.features h1 {
+    color:#e12454;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding-left: 30px;
+}
+
+.first{
+    padding-left:5rem;
+    padding-right:5rem;
+    margin-right: 5rem;
+}
+
+.second{
+    margin-left:5rem;
+}
+
+.box-background{
+    position: relative;
+    width: 25rem;
+    height:15rem;
+    background-color: #C13660E0;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.content{
+    width: 25rem;
+    height:15rem;
+    top: -12rem;
+    left: 3rem;
+    position: relative;
+    border: 4px solid #F5700F;
+    background-color: #FFFFFF;
+    z-index: 2;
+    border-radius:30px;
+    color:#F5700F;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.content p{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 20rem;
+}
+
