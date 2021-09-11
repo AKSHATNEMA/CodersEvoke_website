@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
+  box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -17,6 +18,9 @@ body {
   z-index: 100;
   width: 100%;
 }
+.desk-hid{
+  display: none;
+}
 
 .collapse {
   margin-left: 55%;
@@ -27,7 +31,7 @@ body {
   margin-right: 15px;
 }
 
-.card {
+.card1 {
   color: #e12454;
   border: none;
 }
@@ -48,7 +52,7 @@ body {
   color: #e12454;
   font-size: 1.3rem;
 }
-.card .button {
+.card1 .button {
     font-size: 1.3rem;
     color: white;
     font-family: 'Roboto',sans-serif;
@@ -81,8 +85,6 @@ body {
 }
 
 .first{
-    padding-left:5rem;
-    padding-right:5rem;
     margin-right: 5rem;
 }
 
@@ -123,3 +125,38 @@ body {
     max-width: 20rem;
 }
 
+@media(max-width:900px){
+  .container-fluid{
+    background-color: #e12454;
+  }
+  .collapse{
+    margin-left: 0px;
+    background-color: #e12454;
+  }
+  .mob-hid{
+    display: none;
+  }
+  .home1{
+    box-sizing: border-box;
+    position: relative;
+  }
+  .card-title{
+    font-size: 2.2rem;
+  }
+  .mob-disp{
+    margin-top:0.5rem;
+    display:block;
+    width: 15rem;
+    height: 10rem;
+    font-size:1.5rem;
+  }
+  .content{
+    top: -9rem;
+    left: 1rem;
+  }
+  .mob-view{
+    display:block;
+    width: 16rem;
+    height: 12rem;
+  }
+}
